@@ -30,5 +30,13 @@ module.exports = {
 				arrowParens: 'avoid',
 			},
 		],
+		// 몇몇만 대상제외할 경우
+		// 'vue/multi-word-component-names': [
+		// 	'error',
+		// 	{
+		// 		ignores: ['default'],
+		// 	},
+		// ],
+		'vue/multi-word-component-names': 'off',
 	},
 };
